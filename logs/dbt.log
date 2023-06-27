@@ -1,0 +1,40 @@
+
+
+============================== 2023-06-27 03:16:52.167394 | 0d6c0926-7677-4007-8ffe-685b091719ad ==============================
+[0m03:16:52.167394 [info ] [MainThread]: Running with dbt=1.4.6
+[0m03:16:52.169413 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/toshihirotokuyama/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m03:16:52.169902 [debug] [MainThread]: Tracking: tracking
+[0m03:16:52.204905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cc77b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce4db70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce4d570>]}
+[0m03:16:52.206203 [info ] [MainThread]: Creating dbt configuration folder at /Users/toshihirotokuyama/.dbt
+[0m03:17:06.147705 [debug] [MainThread]: Starter project path: /Users/toshihirotokuyama/.pyenv/versions/data_science_3_10_5/lib/python3.10/site-packages/dbt/include/starter_project
+[0m03:18:40.104546 [info ] [MainThread]: Profile ecommerce written to /Users/toshihirotokuyama/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m03:18:40.105154 [info ] [MainThread]: 
+Your new dbt project "ecommerce" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:18:40.105635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce4dc30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12c2ee710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12c2ede70>]}
+[0m03:18:40.106012 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-06-27 03:19:36.464494 | 45344352-c238-495b-9f8d-286f201fd77d ==============================
+[0m03:19:36.464494 [info ] [MainThread]: Running with dbt=1.4.6
+[0m03:19:36.466701 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/toshihirotokuyama/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m03:19:36.467057 [debug] [MainThread]: Tracking: tracking
+[0m03:19:36.488109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a7310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a52a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a5270>]}
+[0m03:19:36.489129 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/toshihirotokuyama/.dbt
+[0m03:19:36.489643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a7310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a5270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a50f0>]}
+[0m03:19:36.489981 [debug] [MainThread]: Flushing usage events
