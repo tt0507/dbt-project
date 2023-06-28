@@ -38,3 +38,30 @@ Happy modeling!
 open /Users/toshihirotokuyama/.dbt
 [0m03:19:36.489643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a7310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a5270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a50f0>]}
 [0m03:19:36.489981 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-06-27 04:01:15.501633 | 86253cf4-4bc1-48f0-9697-7937907d9922 ==============================
+[0m04:01:15.501633 [info ] [MainThread]: Running with dbt=1.4.6
+[0m04:01:15.504157 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/toshihirotokuyama/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m04:01:15.504485 [debug] [MainThread]: Tracking: tracking
+[0m04:01:15.520983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103eb7130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103eb5300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103eb52a0>]}
+[0m04:01:20.094639 [debug] [MainThread]: Starter project path: /Users/toshihirotokuyama/.pyenv/versions/data_science_3_10_5/lib/python3.10/site-packages/dbt/include/starter_project
+[0m04:01:48.344328 [info ] [MainThread]: Profile ecommerce written to /Users/toshihirotokuyama/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m04:01:48.344988 [info ] [MainThread]: 
+Your new dbt project "ecommerce" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m04:01:48.345462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103eb7790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1233d1fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1233d2e30>]}
+[0m04:01:48.345841 [debug] [MainThread]: Flushing usage events
