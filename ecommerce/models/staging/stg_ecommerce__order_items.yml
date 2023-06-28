@@ -14,6 +14,9 @@ models:
       - name: order_id
         tests:
           - not_null
+          - relationships:
+              to: ref('stg_ecommerce__orders')
+              field: order_id
 
       - name: user_id
         tests:
@@ -22,6 +25,9 @@ models:
       - name: product_id
         tests:
           - not_null
+          - relationships:
+              to: ref('stg_ecommerce__products')
+              field: product_id            
 
       - name: item_sale_price
         description: "How much the item sold for"
