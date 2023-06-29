@@ -65,3 +65,17 @@ Happy modeling!
 
 [0m04:01:48.345462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103eb7790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1233d1fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1233d2e30>]}
 [0m04:01:48.345841 [debug] [MainThread]: Flushing usage events
+[0m21:18:06.984576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad0ac50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be4ed40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be4e620>]}
+
+
+============================== 21:18:06.991224 | 823c4f93-ceb3-4e5d-b5a4-595cd938ebb0 ==============================
+[0m21:18:06.991224 [info ] [MainThread]: Running with dbt=1.5.2
+[0m21:18:06.992038 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/toshihirotokuyama/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:18:06.993154 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/toshihirotokuyama/Library/CloudStorage/Dropbox/programming/dbt-project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:18:06.994928 [debug] [MainThread]: Command `dbt clean` failed at 21:18:06.994227 after 0.06 seconds
+[0m21:18:06.995547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad0ac50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be4f130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be4f100>]}
+[0m21:18:06.996089 [debug] [MainThread]: Flushing usage events
