@@ -149,3 +149,57 @@ Happy modeling!
 [0m01:03:31.236815 [debug] [MainThread]: Command `dbt init` succeeded at 01:03:31.236011 after 62.50 seconds
 [0m01:03:31.237577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10516ed10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124f86530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124f85120>]}
 [0m01:03:31.238292 [debug] [MainThread]: Flushing usage events
+[0m16:35:04.088599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da39d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f301270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f301480>]}
+
+
+============================== 16:35:04.094820 | 93c9e377-c19b-4c59-9836-cc9fe39e1726 ==============================
+[0m16:35:04.094820 [info ] [MainThread]: Running with dbt=1.5.2
+[0m16:35:04.095752 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/toshihirotokuyama/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m16:35:04.097388 [debug] [MainThread]: Starter project path: /Users/toshihirotokuyama/.pyenv/versions/3.10.5/lib/python3.10/site-packages/dbt/include/starter_project
+[0m16:35:37.143428 [info ] [MainThread]: Profile pypi written to /Users/toshihirotokuyama/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:35:37.144304 [info ] [MainThread]: 
+Your new dbt project "pypi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:35:37.146178 [debug] [MainThread]: Command `dbt init` succeeded at 16:35:37.145160 after 33.10 seconds
+[0m16:35:37.146759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da39d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ff4ec80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ff4dbd0>]}
+[0m16:35:37.147337 [debug] [MainThread]: Flushing usage events
+[0m16:45:38.971481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081d9cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109aa1270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109aa1420>]}
+
+
+============================== 16:45:38.985165 | 73a09914-580e-4f3e-86c2-705826323ad2 ==============================
+[0m16:45:38.985165 [info ] [MainThread]: Running with dbt=1.5.2
+[0m16:45:38.986087 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/toshihirotokuyama/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m16:45:46.417489 [debug] [MainThread]: Starter project path: /Users/toshihirotokuyama/.pyenv/versions/3.10.5/lib/python3.10/site-packages/dbt/include/starter_project
+[0m16:46:18.489935 [info ] [MainThread]: Profile google_political_ads written to /Users/toshihirotokuyama/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:46:18.491329 [info ] [MainThread]: 
+Your new dbt project "google_political_ads" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:46:18.492944 [debug] [MainThread]: Command `dbt init` succeeded at 16:46:18.492711 after 39.55 seconds
+[0m16:46:18.493557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081d9cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a6eead0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a6ed990>]}
+[0m16:46:18.494171 [debug] [MainThread]: Flushing usage events

@@ -1,1 +1,1 @@
-# ecommerce-dbt-project
+# DBT Projects

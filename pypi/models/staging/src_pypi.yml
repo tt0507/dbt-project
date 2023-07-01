@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: pypi
+    database: bigquery-public-data
+    tables:
+      - name: distribution_metadata
+      - name: file_downloads
+      - name: simple_requests
