@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: google_analytics_sample
+    database: bigquery-public-data
+    tables:
+      - name: ga_sessions_20170101
+      - name: ga_sessions_20170201
+      - name: ga_sessions_20170301
+      - name: ga_sessions_20170401
+      - name: ga_sessions_20170501
+      - name: ga_sessions_20170601
+      - name: ga_sessions_20170701
+      - name: ga_sessions_20170801
