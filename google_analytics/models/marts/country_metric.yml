@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: country_metric
+    description: "Aggregate sum of page metrics by date"
+    columns:
+      - name: date
+        description: "Date"
+        tests:
+          - not_null
+
+      - name: continent
+        description: "Continent"
+        tests:
+          - not_null
+
+      - name: subcontinent
+        description: "Subcontinent"
+        tests:
+          - not_null
+
+      - name: country
+        description: "Country"
+        tests:
+          - not_null
+
+      - name: agg_sum
+        description: "Total count"
+        tests:
+          - not_null

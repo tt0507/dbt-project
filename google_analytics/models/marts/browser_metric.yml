@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: brwoser_metric
+    description: "Aggregate sum of page metrics by date"
+    columns:
+      - name: date
+        description: "Date"
+        tests:
+          - not_null
+
+      - name: operatingsystem
+        description: "Operating System"
+        tests:
+          - not_null
+
+      - name: devicecategory
+        description: "Device Category"
+        tests:
+          - not_null
+
+      - name: browser
+        description: "Browser"
+        tests:
+          - not_null
+
+      - name: agg_sum
+        description: "Total count"
+        tests:
+          - not_null

@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: page_metric
+    description: "Aggregate sum of page metrics by date"
+    columns:
+      - name: date
+        description: "Date"
+        tests:
+          - not_null
+
+      - name: sum_visits
+        description: "Total number of visits"
+        tests:
+          - not_null
+
+      - name: sum_hits
+        description: "Total number of hits"
+        tests:
+          - not_null
+
+      - name: sum_pageviews
+        description: "Total number of pageviews"
+        tests:
+          - not_null
+
+      - name: sum_timeonsite
+        description: "Total time on website"
+        tests:
+          - not_null
